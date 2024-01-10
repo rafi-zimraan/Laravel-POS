@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
             'name' => 'Admin Rafi',
             'email' => 'raffizimraan27@gmail.com',
             'password' => Hash::make('12345678'),
-            'roles' => 'ADMIN',
+            'roles' => 'admin',
             'phone' => '0895387744114'
         ]);
     }
